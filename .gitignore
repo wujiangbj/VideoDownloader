@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv*/
+.venv/
+
+# 构建输出
+dist/
+build/
+*.spec
+
+# 二进制依赖（需用户自行下载或通过 build 脚本获取）
+yt-dlp.exe
+ffmpeg-master-latest-win64-gpl/
+
+# 用户数据
+cookies.txt
+cookies_*.txt
+config.json
+*.progress.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
